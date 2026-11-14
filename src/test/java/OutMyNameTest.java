@@ -1,8 +1,8 @@
 import org.junit.jupiter.api.Test;
 
-public class MyNameTest {
+public class OutMyNameTest {
     @Test
-    public void testOutputName(){
+    public void testOutName(){
         System.out.println("Hello from Vladimir");
     }
 }
