@@ -11,6 +11,7 @@ public class ParssingJsonTest {
                 .get("https://playground.learnqa.ru/api/get_json_homework")
                 .jsonPath();
 
+
         List otrzymany = jsonpathOtrzymany.getList("messages");
         System.out.println(otrzymany.get(1));
     }
